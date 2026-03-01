@@ -369,10 +369,10 @@ const Index = () => {
             </p>
             <a
               href="mailto:bhosalemanali11@gmail.com"
-              className="inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground px-8 py-4 rounded-full font-semibold shadow-gold hover:opacity-90 transition-opacity text-lg"
+              className="inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground px-6 sm:px-8 py-4 rounded-full font-semibold shadow-gold hover:opacity-90 transition-opacity text-base sm:text-lg max-w-full"
             >
-              <Mail className="w-5 h-5" />
-              bhosalemanali11@gmail.com
+              <Mail className="w-5 h-5 shrink-0" />
+              <span className="truncate">bhosalemanali11@gmail.com</span>
             </a>
           </motion.div>
         </div>
